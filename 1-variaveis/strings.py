@@ -15,3 +15,9 @@ print(outra) # valor1 = Ola, valor2 = Mundo
 print(string1+" "+string2)
 print(f"{string1} {string2}")
 print("{} {}".format(string1,string2))
+
+# PODEMOS DIVIDIR STRINGS COM SPLIT STRING.DIVIDIR("NESSE lUGAR")
+stringParaSerDividida = "Eu sou uma string"
+dividido = stringParaSerDividida.split("sou") # DIVIDIMOS
+# ISSO IRA GERAR UMA ARRAY COM OS ITENS ["Eu","uma string"]
+print(dividido[1]) #vai printar "uma string" pois é a mesma coisa que ["Eu","uma string"][1]
